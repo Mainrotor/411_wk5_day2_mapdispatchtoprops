@@ -5,9 +5,10 @@ export const addCar = (newCar) => {
   };
 };
 
-export const removeCar = (index) => {
+export const removeCar = (idx) => {
+  console.log(idx);
   return {
     type: "DEL_CAR",
-    value: index,
+    value: idx,
   };
 };
